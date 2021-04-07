@@ -1,0 +1,7 @@
+-   id: clubhouse-commit-msg-hook
+    name: Add the Clubhouse story ID as commit message prefix
+    description: If present in the branch name, this hook prepends the Story ID to the commit message
+    entry: hook.sh
+    language: script
+    always_run: true
+    stages: [prepare-commit-msg]
