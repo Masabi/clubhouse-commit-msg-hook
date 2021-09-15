@@ -1,5 +1,5 @@
--   id: clubhouse-commit-msg-hook
-    name: Prefix Clubhouse Story ID
+-   id: shortcut-commit-msg-hook
+    name: Prefix Shortcut Story ID
     description: If present in the branch name, this hook prepends the Story ID to the commit message
     entry: hook.sh
     language: script
